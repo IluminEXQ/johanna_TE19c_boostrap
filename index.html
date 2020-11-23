@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Laddar in bootstrap före style-->
+    <link rel="stylesheet" href="css/bootstrap.css"> 
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1>Detta är en rubrik, hoppas att bootstrap laddas in.</h1>
+    <div class="container" style="background-color: lightblue;">
+        <h1>Detta är den första container</h1>
+        <div class="container" style="background-color: cyan;">
+            <h1>Detta är den andra container</h1>
+               <button class="btn"> Click me! </button> <!--Skillnad på btn och class="btn" -->
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: lightblue;">
+        <h1>Detta är en container-fluid</h1>
+    </div>
+
+
+
+
+    
 </body>
 </html>
